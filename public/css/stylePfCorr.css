@@ -1,0 +1,137 @@
+#profileDiv{
+    position: absolute;
+    border-radius: 7px; 
+    width: 8%;
+    height: 5%;
+    margin-left: 91%;
+    margin-top: 1%;
+    justify-content: center;
+    display: flex;
+    vertical-align: center;
+    text-align: center;
+    background-color: #3445b4;
+    font-size: 15px;
+    padding-top: 10px;
+    color: white;
+}
+
+#profileDiv:hover{
+    cursor: pointer;
+}
+
+#corrColorLegend{
+  margin-top: 6%;
+  margin-left: 43%;
+}
+
+.corrValueLegend{
+  min-width:75px;
+  margin-bottom: 0px;
+}
+
+#corrColorTable{
+  display: flex;
+  padding-left: 0px;
+  width: 300px;
+  height: 30px;
+}
+
+#corrColorTable > div {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+#corrTable{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+#correlationData{
+  margin-top: 40px;
+}
+
+#assetPeriodDiv{
+  display: flex;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: -1%;
+  margin-bottom: 30px;
+}
+
+#assetPeriodDiv > p{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+
+#singlePerformanceDiv{
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+#singleAssetsCorrDiv{
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+#firstRowDiv{
+  display: flex;
+}
+
+
+#pfCorrTable{
+  text-align: center;
+  font-size: 17px;
+}
+#assetCorrelationDiv{
+  display: flex;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#assetCorrelationDiv > p{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+
+/* Set size and color of bootstrap-select */
+#savedPfMenuDiv > div {
+  width: 330px !important;
+}
+
+#setPeriodDiv > div {
+  width: 70px !important;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3445b4;
+}
+.dropdown-menu > li > a.active {
+  background-color: #3445b4;
+}
+
+.bootstrap-select>.dropdown-toggle:after {
+  color: #3445b4;
+  margin-right: 5px;
+}
+
+/* Block selection on all page */
+::selection {
+  background: transparent; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: transparent; /* Gecko Browsers */
+}
+
+body{-webkit-user-select:none;-moz-user-select:-moz-none;
+  -ms-user-select:none;user-select:none}

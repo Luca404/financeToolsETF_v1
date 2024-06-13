@@ -1,0 +1,136 @@
+#profileDiv{
+    position: absolute;
+    border-radius: 7px; 
+    width: 150px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    margin-left: 91%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #3445b4;
+    font-size: 15px;
+    color: white;
+}
+
+#profileDiv:hover{
+    cursor: pointer;
+}
+
+
+.dataContDiv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.dataDiv{
+  display: flex;
+  margin-left: 10%;
+}
+
+.dataDiv > h6{
+  display: flex;
+  margin-top: auto;
+  white-space: nowrap ;
+}
+
+.dataInput{
+  text-align: center;
+  margin-left: 20px;
+}
+
+#expReturn{
+  display: inline-block;
+}
+ 
+#volatilityInput{
+  margin-left: 39.5px;
+}
+
+#actualValueInput{
+  margin-left: 39.5px;
+}
+
+#selectedValueInput{
+  margin-left: 39.5px;
+}
+ 
+#selectedDiv{
+  margin-left:70px;
+}
+
+
+#singlePerfCanvas{
+  width: 1400px !important;
+  height: 700px !important;
+}
+
+#markowitzCanvasCont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1400px;
+  height: 700px;  
+  padding: 0;
+  margin-left: 80px;
+}
+
+/* Set size and color of bootstrap-select */
+#savedPfMenuDiv > div {
+  width: 330px !important;
+}
+
+#settingsDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#settingsDiv > input {
+  margin-left: 10px;
+}
+
+#settingsDiv > p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+.settingsInput{
+  width: 70px;
+}
+
+#setPeriodDiv > div {
+  width: 70px !important;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3445b4;
+}
+.dropdown-menu > li > a.active {
+  background-color: #3445b4;
+}
+
+.bootstrap-select>.dropdown-toggle:after {
+  color: #3445b4;
+  margin-right: 5px;
+}
+
+/* Block selection on all page */
+::selection {
+  background: transparent; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: transparent; /* Gecko Browsers */
+}
+
+body{-webkit-user-select:none;-moz-user-select:-moz-none;
+  -ms-user-select:none;user-select:none}

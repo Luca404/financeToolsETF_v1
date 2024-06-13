@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(242, 242, 242) !important;
+}
+
+#bodyContent{
+    margin-left: 300px;
+    justify-content: center;
+}
+
+#createPfContent{
+    display: inline-block;
+    text-align: center;
+    margin-left: 140px;
+}
+
+#etfListTable{
+    margin-left:0px;
+}
+
+#pagesNumDiv button{
+    min-width: 35px;
+}
+
+#backBtn {
+    background-color: 	rgb(204, 204, 204);
+    user-select: none;
+    border: none;
+    width: 40px;
+    padding-right: 6px;
+    float: left;
+    margin-left: 30px;
+}
+
+#nextBtn {
+    background-color: 	rgb(204, 204, 204);
+    border: none;
+    width: 40px;
+    padding-right: 3px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -38px;
+}
+
+#backBtn img{
+    rotate: 180deg;
+    width: 30px;
+    height: 30px;
+    margin-left: -9px;
+}
+
+#nextBtn img{
+    width: 30px;
+    height: 30px;
+    margin-left: -8px;
+}
+
+#numBtnDiv button:hover{
+    background-color: rgb(237,237,237);
+}
+
+
+#addPfNameInput{
+    width: 200px;
+    margin-left: 460px;
+}
+
+#searchEtfInput{
+    width: 200px;
+    margin-left: 460px;
+}

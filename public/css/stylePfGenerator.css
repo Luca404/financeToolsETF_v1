@@ -1,0 +1,63 @@
+body{
+    color:black;
+}
+
+#riskQuestionnaireButton{
+    width: 30%;
+    margin-left: 10%;
+}
+
+#questionContent{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+    margin-left: 28%;
+}
+
+#questionTab{
+    margin-left: 5%;
+}
+
+#questionDiv{
+    margin-top: 30px;
+    padding-left: 5%;
+}    
+
+#options{
+    margin-top: 20px;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+}
+
+#nextQuestionButton{
+    margin-left: 22%;
+}
+
+#questions{
+    width: 450px;
+}
+
+
+#profileDiv{
+    position: absolute;
+    border-radius: 7px; 
+    width: 8%;
+    height: 5%;
+    margin-left: 91%;
+    margin-top: 1%;
+    justify-content: center;
+    display: flex;
+    vertical-align: center;
+    text-align: center;
+    background-color: #3445b4;
+    font-size: 15px;
+    padding-top: 10px;
+    color: white;
+}
+
+#profileDiv:hover{
+    cursor: pointer;
+}

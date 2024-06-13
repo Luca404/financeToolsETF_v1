@@ -1,0 +1,31 @@
+[
+{"q":"I plan to begin taking money from my investments in . . .",
+"r":["Less than 1 year","1-2 years","3-5 years","6-10 years","11-15 years","More than 15 years"]},
+
+{"q":"As I withdraw money from these investments, I plan to spend it over a period of . . .",
+"r":["2 years or less","3-5 years","6-10 years","11-15 years","More than 15 years"]},
+
+{"q":"When making a long-term investment, I plan to keep the money invested for . . .",
+"r":["1-2 years","3-4 years","5-6 years","7-8 years","More than 8 years"]},
+
+{"q":"From September 2008 through November 2008, stocks lost over 31%. If I owned a stock investment that lost about 31% in three months, I would . . .",
+"r":["Sell all of the remaining investment","Hold on to the investment and sell nothing","Sell some of the remaining investment","Buy more of the investment"]},
+
+{"q":"Generally, I prefer an investment with little or no ups and downs in value, and I am willing to accept the lower returns these investments may make",
+"r":["I strongly agree","I agree","I somewhat agree","I disagree","I strongly disagree"]},
+
+{"q":"When the market goes down, I tend to sell some of my riskier investments and put money in safer investments.",
+"r":["I strongly agree","I agree","I somewhat agree","I disagree","I strongly disagree"]},
+
+{"q":"From September 2008 through October 2008, bonds lost nearly 4%. If I owned a bond investment that lost almost 4% in two months, I would . . .",
+"r":["Sell all of the remaining investment","Hold on to the investment and sell nothing","Sell some of the remaining investment","Buy more of the investment"]},
+
+{"q":"Given the potential gain or loss in any one year, I would invest my money in . . .",
+"r":["Investment A (gain $593; loss -$164)","Investment B (gain $1,921; loss -$1,020)","Investment C (gain $4,229; loss -$3,639)"]},
+
+{"q":"My current and future income sources (such as salary, Social Security, pension) are . . .",
+"r":["Very unstable","Unstable","Somewhat stable","Stable","Very stable"]},
+
+{"q":"When it comes to investing in stock or bond mutual funds (or individual stocks or bonds), I would describe myself as . . .",
+"r":["Very inexperienced","Somewhat inexperienced","Somewhat experienced","Experienced","Very experienced"]}
+]

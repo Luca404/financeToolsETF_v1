@@ -1,0 +1,18 @@
+.loginForm {
+    background: #3445b4;
+}
+
+#sidebar{
+    pointer-events: none;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    transform: scale(1.004);
+}
+
+.form-control::placeholder{
+    color:black !important;
+    opacity: 30%;
+}

@@ -1,0 +1,502 @@
+body{ 
+    max-height: 90vh;
+	width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    display:block;
+}
+#corpo{
+    background-color: white;
+}
+
+#pfSharesNumDiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.pfSharesNumDiv > div {
+    flex: 0 1 100%;
+}
+
+#pfSharesNumDiv > div > h6{
+    margin-top: 3%;
+}
+
+.addSharesNumInput{
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 5px;
+    font-size: 15px;
+    width: 50px;
+    height: 25px;
+}
+
+#profileDiv{
+    position: absolute;
+    border-radius: 7px; 
+    width: 8%;
+    height: 5%;
+    margin-left: 91%;
+    margin-top: 1%;
+    justify-content: center;
+    display: flex;
+    vertical-align: center;
+    text-align: center;
+    background-color: #3445b4;
+    font-size: 15px;
+    padding-top: 10px;
+    color: white;
+}
+ 
+#profileDiv:hover{
+    cursor: pointer;
+}
+
+#addModal{
+    text-align: center;
+    justify-content: center;
+}
+
+#successLoginDiv{
+    position: relative;
+    color: green;
+    font-size: 20px;
+    margin-top: -18%;
+    margin-left: 41%;
+    z-index: 1041;
+}
+
+#successDeleteDiv{
+    position: relative;
+    width: 100%;
+    color: green;
+    font-size: 20px;    
+    margin-top: -11%;
+    margin-left: 0.6em;    
+    z-index: 1041;
+}
+
+#successSavedDiv{
+    position: relative;
+    width: 100%;
+    color: green;
+    font-size: 20px;    
+    margin-left: 0.7em;    
+    z-index: 1041;
+}
+
+#errorSavedDiv{
+    position: relative;
+    width: 100%;
+    color: red;
+    font-size: 20px;   
+    margin-left: 0.7em;    
+    z-index: 1041;
+}
+
+.modal-body{
+    padding-left:20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.modal-header{
+    padding-left: 5%;
+}
+
+.selectCheck::placeholder{
+    color:red;
+}
+
+.inputCheck::placeholder{
+    color:red;
+}
+.inputCheck{
+    border: 1px solid black;
+    animation-fill-mode: forwards;
+}
+@keyframes error{
+    20%{border: 1px solid red;}
+    40%{margin-top: 10px;}
+    60%{margin-top: 5px; border: 1px solid red;}
+    80%{margin-top: -10px; border: 1px solid red;}
+    100%{border: 1px solid black;}
+} 
+
+#cella{
+    width: 20%;
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#titolo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+
+#pageTopBorder{
+    position: absolute;
+    display:none;
+    background-color: #3445b4;
+    margin-top: -2.6%;
+    margin-left: -2.6%;
+    width: 99%;
+    height: 3%;
+}
+
+#pageBotBorder{
+    position: absolute;
+    display:none;
+    background-color: #3445b4;
+    margin-top: 44.6%;
+    margin-left: -2.6%;
+    width: 99%;
+    height: 3%;
+}
+
+#pageRightBorder{
+    position: absolute;
+    display: none;
+    background-color: #3445b4;
+    margin-top: -2.6%;
+    margin-left: 94.5%;
+    width: 1.5%;
+    height: 99%;
+}
+
+/*Modify table td in portfolio manager*/
+.modifyTd{
+    width: 120px;
+    margin-left: 10px;
+    padding-left: 0px !important;
+}
+
+/*portfolio manager table head*/
+#table1Head{
+    position: relative;
+    text-align: center;
+}
+
+/*Button to modify a portfolio in manager*/
+.modifyPf{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Button to delete a portfolio in manager*/
+.deletePf{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+/*Modify image in portfolio manager*/
+#modifyImg{
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+/*Delete image in portfolio manager*/
+#deleteImg{
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+
+.itemTabella:hover #modifyPf{
+    display: block;
+}
+
+/*Item tabella portfolio manager*/
+.itemTabella{
+    position: relative;
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+/*Table item td*/
+.itemTd{    
+    position: relative;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle !important;
+}
+
+.sharesTd{
+    display: flex !important;
+    margin-top: 7.5px !important;
+}
+
+.sharesTd > div.dropdown > select{
+    display: flex !important;
+    text-align: center;
+    margin-left: 5px !important;
+    margin-top: 3px;
+}
+
+.sharesTd > div.dropdown{
+    width: 40px !important;
+}
+
+.sharesTd > div.dropdown > button{
+    width: 40px !important;
+    margin-top: 3px !important;
+    text-align: center;
+    font-size: small;
+    height: 30px;
+    padding-left: 11px;
+}
+
+.sharesTd > div.dropdown > button > div{
+    text-align: center !important;
+    margin-top: -1px !important;
+}
+
+.sharesTd > div.dropdown > .dropdown-menu {
+    width: 40px;
+    padding: initial;
+}
+
+.sharesTd > div.dropdown > .dropdown-menu > div > ul{
+    font-size: small;
+    text-align: center;
+}
+
+.sharesTd > div.dropdown > .dropdown-toggle:focus{
+    outline: none !important;
+}
+
+.sharesTd > div.dropdown > .dropdown-menu > div > ul > li > a{
+    padding: initial;
+    text-align: center;
+}
+
+.sharesTd > select{
+    -o-appearance: none;
+   -ms-appearance: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+.sharesTd > div.dropdown > .dropdown-toggle:after {
+    display: none !important;
+}
+
+.sharesTd > div.dropdown > .dropdown-menu{
+    transform: translate3d(0px, 32.5px, 0px)!important;
+}
+
+
+.deleteTd{
+    padding-top: 2px !important;
+}
+
+.deleteTd > button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.nameDiv{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 125px !important;
+    overflow: hidden;
+}
+
+#addPfDiv{
+    position: relative;
+    width: 100%;
+    height: 150%;
+    padding: 12px;
+}
+
+#addTd{
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px;
+}
+
+div.tooltip
+{
+    font-size:10px;
+}
+
+#addTd:hover{
+    cursor: pointer;
+}
+
+.hoverText {
+    position: relative;
+}
+
+.hoverText:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 80px;
+    background-color: black;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 1s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: -88%;
+    top: 130%;
+}
+
+#addPfDiv:hover > .hoverText:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*Input loading wheel style*/
+.icon-container {
+    display:none;
+    position: absolute;
+    right: 50px;
+    top: calc(63% - 9px);
+}
+.loader {
+position: relative;
+height: 20px;
+width: 20px;
+display: inline-block;
+animation: around 5.4s infinite;
+}
+
+@keyframes around {
+0% {
+    transform: rotate(0deg)
+}
+100% {
+    transform: rotate(360deg)
+}
+}
+
+.loader::after, .loader::before {
+content: "";
+background: white;
+position: absolute;
+display: inline-block;
+width: 100%;
+height: 100%;
+border-width: 2px;
+border-color: #333 #333 transparent transparent;
+border-style: solid;
+border-radius: 20px;
+box-sizing: border-box;
+top: 0;
+left: 0;
+animation: around 0.7s ease-in-out infinite;
+}
+
+.loader::after {
+animation: around 0.7s ease-in-out 0.1s infinite;
+background: transparent;
+}
+
+
+/* Set size and color of bootstrap-select */
+#savedPfMenuDiv > div {
+    width: 330px !important;
+}
+
+#setPeriodDiv > div {
+    width: 70px !important;
+}
+
+#addPfTickersDiv{
+    position: relative;
+    display: inline-block;
+    max-width: 500px;
+    width: 100%;
+}
+
+#pfValueDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pfValueDiv > h5{
+    margin-top: 5px;
+}
+
+#pfValueDiv > input {
+    width: 100px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+#addPfTickersDiv > * >.dropdown-menu {
+    max-height: 400px !important;
+    max-width: 700px !important;
+    margin-left: -165px !important;
+}
+
+.dropdown-menu > * > .inner{
+    text-align: center;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #a5d1ff;
+}
+
+.dropdown-menu > li > a.active {
+    background-color: #3445b4;
+}
+
+.bootstrap-select>.dropdown-toggle:after {
+    color: #3445b4;
+    margin-right: 5px;
+}
+
+
+/* Block selection on all page */
+::selection {
+    background: transparent; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: transparent; /* Gecko Browsers */
+}
+
+body{-webkit-user-select:none;-moz-user-select:-moz-none;
+    -ms-user-select:none;user-select:none}
